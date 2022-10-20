@@ -42,7 +42,7 @@ body{
 }
 .title{
   font-family: 'Caveat', cursive;
-  font-size: 45px;
+  font-size: 35pxF;
   color:#586F7C
 
 }
@@ -518,13 +518,14 @@ body{
   background: none;
   border: none;
   outline: none;
-  padding: 10px 30px;
+  padding: 5px 10px;
   border-radius: 8px;
   color:#212121;
   font-size: 15px;
-  font-weight: 600;
+  font-weight:100px;
   transition: 0.4s;
   font-family: 'Montserrat', sans-serif;
+  
 
 }
 .ng-scope{
@@ -535,6 +536,12 @@ body{
   border:3px solid green;
 
 }
+.bottom-btn{
+  padding-left: 50%;
+  padding-right:50%;
+  display: inline-block;
+  
+}
 .button-1:hover{
   color:#FFF;
   background-color: green;
@@ -544,6 +551,7 @@ body{
   color:#ff6b81;
   border:5px solid #ff6b81;
   border-radius: 50%;
+  
 }
 .button-2:hover{
   color:#FFF;
@@ -578,6 +586,13 @@ html,body{
 .box{
   color: #000;;
   
+
+}
+.last-part{
+  padding-top:20% ;
+}
+.last-part img{
+  width: 70%;
 
 }
 .box h2{
