@@ -19,6 +19,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 *{
    box-sizing: border-box;
 }
@@ -579,8 +581,10 @@ html,body{
 
 }
 .box h2{
-  font-size: 60px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mukta', sans-serif;
+}
+.box h5{
+  font-family: 'Playfair Display', serif;
 }
 .part-1 img{
   border-radius: 50%;
@@ -601,6 +605,34 @@ html,body{
   
   zoom: -80%;
 }
- 
+.services img{
+width: 100%;
+border-radius:20%;
+max-height: 192px;
+image-resolution: cover;
+
+}
+.first img{
+  width: 100%;
+  padding-top: 5%;
+  border-color: #000;
+  border: #000;
+  border:20px;
+
+
+}
+.first img::after {
+  content:'';
+  position: absolute;
+  z-index: -1;
+  bottom: -24px;
+  left: -24px;
+  width: 100%;
+  height: 100%;
+  background: #F0ECE2;
+}
+.bolum-1{
+  padding-bottom: 5%;
+}
  
  
